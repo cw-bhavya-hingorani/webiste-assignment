@@ -1,0 +1,194 @@
+body{
+    background-color: #fbd1a2;
+    margin: 0;
+    padding: 0;
+}
+
+hr{
+    height:4px;
+    margin-left: 40px;
+    margin-right: 100px;
+    color:#f79256;
+    background-color:#f79256
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.exp-hr{
+    margin-left: 0px;
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* aside{
+    background-color: cornflowerblue;
+    width: 50;
+    height: 50px;
+} */
+
+header{
+    display: flex;
+    justify-content: space-around;
+    background-image: linear-gradient(#1d4389, #0091ca);
+    
+}
+
+.header-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #7dcfb6;
+}
+
+#hi-iam{
+    margin-top: 100px;
+    color: #f79256;
+    font-size: 4ch;
+}
+
+#sde{
+    font-size: 4ch;
+}
+
+
+.name{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:10ch;
+}
+
+.my-pic{
+    margin-left: 20px;
+    width: 400px;
+    height: 400px;
+}
+
+.section{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 25px;
+}
+
+.heading{
+    font-size: xx-large;
+    margin-left: -50px;
+}
+
+.skills{
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 25px;
+    flex-direction: column;
+}
+.skills img{
+    height: 100px;
+    width: 100px;
+}
+
+.first-two-skills{
+    display: flex;
+    justify-content: space-between;
+}
+
+.second-two-skills{
+    display: flex;
+    justify-content: space-between;
+}
+
+.projects{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0px;
+}
+
+.project{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: -20px;
+    background-color: #46a6cc;
+    width: 250px;
+    height: 400px;
+    padding: 5px;
+    box-shadow: 10px 10px #1c404f;
+}
+
+.project img{
+    width: 250px;
+    height: 150px;
+}
+
+.project-card-line{
+    height:2px;
+    color: #000;
+    background-color: #000;
+    width: 250px;
+    margin: 0;
+}
+
+.project a p{
+    margin-left: 90px;
+}
+
+.hobby{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    background-image: linear-gradient(#1d4389, #0091ca);
+    color: #7dcfb6;
+}
+
+.hobby-pics{
+    width: 400px;
+    height: 250px;
+    box-shadow: 7px 7px linen;
+}
+
+.Badminton img{
+    width: 375px;
+}
+
+.form-item{
+    margin: 5px;
+}
+
+button {
+    width: 300px;
+    height: 50px;
+    background-color: #fbd1a2; 
+    color: #f79256; 
+    border: 2px solid #008CBA;
+    border-radius: 25px;
+}
+  
+button:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-image: linear-gradient(#1d4389, #0091ca);
+}
+.footer-pics{
+    width: 50px;
+    height: 50px;
+    margin: 4px;
+}
+
+footer div{
+    display: flex;
+}
+
+footer a {
+    color: white;
+}
