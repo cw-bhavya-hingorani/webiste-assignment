@@ -19,6 +19,25 @@ form{
     justify-content: space-around;
 }
 
+nav{
+    display: flex;
+    position:sticky;
+    top: 0;
+    justify-content: space-around;
+    align-items: center;
+    background-image: linear-gradient(#1d4389, #0091ca);
+    height: 50px;
+}
+
+nav a{
+    font-size: 3ch;
+    color: #7dcfb6;
+}
+
+nav a:hover{
+    color: #1d4389;
+}
+
 .exp-hr{
     margin-left: 0px;
 }
@@ -191,4 +210,23 @@ footer div{
 
 footer a {
     color: white;
+}
+
+input{
+    border: 0px;
+    border-bottom: 2px solid #000;
+    background-color: #fbd1a2;
+    width: 100%;
+    height: 30px;
+}
+
+textarea{
+    border: 4px solid #000;
+    background-color: #fbd1a2;
+    width: 100%;
+    height: 100%;
+}
+
+.short{
+    width: 25%;
 }
