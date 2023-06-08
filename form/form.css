@@ -38,6 +38,7 @@ body{
 
 .pop-up button{
     margin-top: 3%;
+    margin-bottom: 1%;
     width: 35%;
     height: 43.5px;
     background-color:dodgerblue;
@@ -114,6 +115,71 @@ form{
     background-color: gray;
 }
 
+@media (max-width: 990px) {
+    form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(243, 242, 242);
+        width: 55%;
+        height: auto;
+        padding: 1%;
+        padding-bottom: 2%;
+        border-radius: 20px;
+    }
+    form p{
+        font-size:x-large;
+    }
+    form h2{
+        font-size: xx-large;
+    }
+    .pop-up{
+        position: absolute;
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        width: 75%;
+        height: auto;
+        background-color: whitesmoke;
+        border-radius: 35px;
+        padding: 5px;
+    }
+    .pop-up p{
+        font-size: x-large;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-top: 3%;
+    }
+    .pop-up button{
+        margin-top: 3%;
+        width: 35%;
+        height: 43.5px;
+        background-color:dodgerblue;
+        color: white;
+        border: 0px;
+        border-radius: 15px;
+    }
+}
+
+/* @media (orientation: portrait) {
+    .pop-up{
+        position: absolute;
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        width: 75%;
+        height: 40%;
+        background-color: whitesmoke;
+        border-radius: 35px;
+    }
+    .pop-up p{
+        font-size: x-large;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-top: 3%;
+    }
+} */
+
 @media (max-width: 768px) {
     form{
         display: flex;
@@ -135,7 +201,7 @@ form{
         height: auto;
         background-color: whitesmoke;
         border-radius: 35px;
-        padding: 5%;
+        padding: 5px;
     }
     .pop-up p{
         font-size: x-large;
@@ -143,9 +209,18 @@ form{
         margin-right: 5%;
         padding-top: 3%;
     }
+    .pop-up button{
+        margin-top: 3%;
+        width: 35%;
+        height: 43.5px;
+        background-color:dodgerblue;
+        color: white;
+        border: 0px;
+        border-radius: 15px;
+    }
 }
 
-@media (orientation: portrait) {
+/* @media (orientation: portrait) {
     .pop-up{
         position: absolute;
         display: none;
@@ -162,4 +237,4 @@ form{
         margin-right: 5%;
         padding-top: 3%;
     }
-}
+} */
