@@ -1,0 +1,115 @@
+body{
+    background-color: rgb(197, 202, 207);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay{
+    background: rgba(0,0,0,0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.pop-up{
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 55%;
+    height: 55%;
+    background-color: whitesmoke;
+    border-radius: 35px;
+}
+
+.pop-up h1{
+    font-size: xx-large;
+}
+
+.pop-up p{
+    font-size: x-large;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 3%;
+}
+
+.pop-up button{
+    margin-top: 3%;
+    width: 35%;
+    height: 43.5px;
+    background-color:dodgerblue;
+    color: white;
+    border: 0px;
+    border-radius: 15px;
+}
+
+form p{
+    font-size: larger;
+}
+
+form button{
+    margin-top: 10%;
+    width: 72.5%;
+    height: 35px;
+    background-color:dodgerblue;
+    color: white;
+    border: 0px;
+}
+
+input{
+    font-size: large;
+    height: 35%;
+    width: 100%;
+}
+
+input:focus{
+    outline: none;
+}
+
+#input-error-msg-username, #input-error-msg-email, #input-error-msg-password, #input-error-msg-confirm-password{
+    display: none;
+    color: red;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(243, 242, 242);
+    width: 30%;
+    height: auto;
+    padding: 1%;
+    padding-bottom: 2%;
+    border-radius: 5%;
+}
+
+.password-wrapper{
+    display: flex;
+    align-items: center;
+}
+.fa-solid{
+    margin-left: 2.5%;
+}
+
+.input-wrapper{
+    width: 75%;
+}
+
+.input-wrapper{
+    color: gray;
+}
+
+.input-incorrect{
+    border: 2px solid rgb(230, 100, 100);
+}
+
+.input-correct{
+    border: 2px solid rgb(100, 230, 100);
+}
+
+.disabled-button{
+    background-color: gray;
+}

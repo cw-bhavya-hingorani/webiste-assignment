@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div></div>
+    <form class="form-wrapper">
+        <h2>Sign up</h2>
+        <div class="input-wrapper username-input">
+            <p>Username:</p>
+            <input type="text">
+            <p id="input-error-msg-username">Username must be between 3 and 25 characters</p>
+        </div>
+        <div class="input-wrapper email-input">
+            <p>Email:</p>
+            <input class="input-area" type="text">
+            <p id="input-error-msg-email">Must be a valid email address</p>
+        </div>
+        <div class="input-wrapper password-input">
+            <p>Password:</p>
+            <div class="password-wrapper">
+                <input type="password">
+                <i class="fa-solid fa-eye-slash pass-eye"></i>
+            </div>
+            <p id="input-error-msg-password">Must be at least eight characters long. Must contain at least one lowercase character, one uppercase character, one number, and one special character from the set (!@#$%^&*).</p>
+        </div>
+        <div class="input-wrapper confirm-password-input">
+            <p>Confirm Password:</p>
+            <div class="password-wrapper">
+                <input type="password">
+                <i class="fa-solid fa-eye-slash conf-pass-eye"></i>
+            </div>
+            <p id="input-error-msg-confirm-password">Please enter the same password again</p>
+        </div>
+        <button class="disabled-button" id="sign-up" disabled>SIGN UP</button>
+    </form>
+    <div class="pop-up">
+        <h1>Hey there!</h1>
+        <p>Hey amazing you</p>
+        <button>Yayy!</button>
+    </div>
+    <script src="form.js"></script>
+</body>
+</html>
