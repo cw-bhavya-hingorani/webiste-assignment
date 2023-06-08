@@ -115,7 +115,7 @@ form{
     background-color: gray;
 }
 
-@media (max-width: 990px) {
+@media (max-width: 1080px) {
     form{
         display: flex;
         flex-direction: column;
