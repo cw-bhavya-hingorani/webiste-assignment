@@ -188,7 +188,8 @@ form{
         height: 100%;
         padding: 1%;
         padding-bottom: 2%;
-        border-radius: 20px;
+        border-radius: 0px;
+        margin: 0px;
     }
     form p{
         font-size:x-large;
