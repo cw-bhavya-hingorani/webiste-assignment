@@ -3,6 +3,9 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0;
+    margin: 0;
+    border: 0 solid;
 }
 
 .overlay{
@@ -97,9 +100,6 @@ form{
 
 .input-wrapper{
     width: 75%;
-}
-
-.input-wrapper{
     color: gray;
 }
 
@@ -126,9 +126,6 @@ form{
         padding: 1%;
         padding-bottom: 2%;
         border-radius: 20px;
-    }
-    form p{
-        font-size:x-large;
     }
     form h2{
         font-size: xx-large;
@@ -188,10 +185,15 @@ form{
         justify-content: space-around;
         background-color: rgb(243, 242, 242);
         width: 100%;
-        height: auto;
+        height: 100%;
         padding: 1%;
         padding-bottom: 2%;
         border-radius: 20px;
+    }
+    form p{
+        font-size:x-large;
+        margin-top: 0%;
+        margin-bottom: 0%;
     }
     .pop-up{
         position: absolute;
@@ -221,7 +223,7 @@ form{
     }
     input{
         font-size: large;
-        height: 55%;
+        height: 3rem;
         width: 100%;
     }
     .password-wrapper{
@@ -234,6 +236,9 @@ form{
         background-color:dodgerblue;
         color: white;
         border: 0px;
+    }
+    .input-wrapper{
+        margin: 0%;
     }
     /* form p{
         font-size: xx-large;
