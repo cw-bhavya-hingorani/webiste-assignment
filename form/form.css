@@ -185,8 +185,9 @@ form{
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: space-around;
         background-color: rgb(243, 242, 242);
-        width: 70%;
+        width: 100%;
         height: auto;
         padding: 1%;
         padding-bottom: 2%;
@@ -218,6 +219,25 @@ form{
         border: 0px;
         border-radius: 15px;
     }
+    input{
+        font-size: large;
+        height: 55%;
+        width: 100%;
+    }
+    .password-wrapper{
+        height: 100%;
+    }
+    form button{
+        margin-top: 10%;
+        width: 72.5%;
+        height: 55px;
+        background-color:dodgerblue;
+        color: white;
+        border: 0px;
+    }
+    /* form p{
+        font-size: xx-large;
+    } */
 }
 
 /* @media (orientation: portrait) {
